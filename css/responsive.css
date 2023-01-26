@@ -1,7 +1,34 @@
 /*==========  Non-Mobile First Method  ==========*/
+@media only screen and (max-width : 1425px) {
+	.footgauche, .footdroite{
+	    width: 30% !important;
+	}
+}
 
+@media only screen and (max-width : 1200px) {
+.ordi{
+    margin-top: 20%;transform: rotate(20deg);
+	}
+}
+
+
+@media only screen and (max-width : 1200px) {
+
+	.listpart div img{
+    width:90%;
+    height: auto;
+	}
+
+	.listpart div{
+    width: 22%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+}
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1199px) {
+@media only screen and (max-width : 1120px) {
 	/* CUSTOM RESETS */
 	h1 {
 		font-size: 52px;
@@ -22,10 +49,25 @@
 	.section-map-feature .amp {
 		margin: 60px 0 125px;
 	}
+	.section-map-feature .amp{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+	}
+	.counter-item{
+    width: 40%;
+	}
+
+	.ordi{
+    margin-top: 20%;transform: rotate(20deg);
+	}
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 991px) {
+@media only screen and (max-width : 990px) {
 	/* CUSTOM RESETS */
 	h1 {
 		font-size: 42px;
@@ -159,10 +201,41 @@
 		padding-left: 0;
 	}
 }
+@media only screen and (max-width : 995px) {
+	.ordi{
+		    margin-top: 25%;transform: rotate(20deg);
+		}
+		.tail{
+    width: 22% !important;
+	}
+}
 
+@media only screen and (max-width : 990px) {
+
+	.listpart div img{
+    width:90%;
+    height: auto;
+	}
+
+	.listpart div{
+    width: 22%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+}
+
+@media only screen and (max-width : 960px) {
+	.footgauche, .footdroite{
+	    width: 40% !important;
+	}
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 767px) {
 	/* CUSTOM RESETS */
+	
+
 	h1 {
 		font-size: 32px;
 	}
@@ -632,9 +705,63 @@
 	}
 }
 
+@media only screen and (max-width : 760px) {
+
+	.listpart div img{
+    width:90%;
+    height: auto;
+	}
+
+	.listpart div{
+    width: 22%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+}
+@media only screen and (max-width : 715px) {
+	.footgauche, .footdroite{
+	    width: 70% !important;
+	}
+	.footdroite{
+		margin-top: 10% !important;
+	}
+}
+@media only screen and (max-width : 620px) {
+
+	.listpart div img{
+    width:80%;
+    height: auto;
+	}
+
+	.listpart div{
+    width: 44%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+}
+
 /* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 479px) {
+@media only screen and (max-width : 615px) {
 	/* SITEMAIN */
+
+
+	.ser{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+	}
+	.service1{
+		width: 50%;
+	}
+	.counter-item{
+    width: 50%;
+	}
 
 	.section-services .col-xs-6 {
 		width: 100%;
@@ -711,7 +838,78 @@
 	}
 }
 
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
 
+@media only screen and (max-width : 720px) {
+	.tail{
+    width: 30% !important;
+	}
 }
+
+@media only screen and (max-width : 450px) {
+	.section-map-feature .amp{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+	}
+	.counter-item{
+    width: 80%;
+	}
+}
+
+@media only screen and (max-width : 420px) {
+	.tail{
+    width: 40% !important;
+	}
+}
+@media only screen and (max-width : 410px) {
+	.social-links a {
+	    line-height: 36px;
+	    padding: 5px 15px;
+	    font-size: 16px;
+	    border: 1px solid;
+	    border-radius: 50px;
+	}
+	.social-links a i {
+	    width: 16px;
+	    text-align: center;
+	}
+	.textplus1{
+	    font-size: 14px;
+	}
+
+	.textplus2{
+	    font-size: 15px;
+	}
+
+	.textplus3{
+	    font-size: 16px !important;
+	    font-weight: bolder;
+	}
+}
+
+@media only screen and (max-width : 380px) {
+
+	.listpart div img{
+    width:70%;
+    height: auto;
+	}
+
+	.listpart div{
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	}
+}
+
+@media only screen and (max-width : 360px) {
+	.tail{
+    width: 100% !important;
+	}
+}
+
+
